@@ -1,0 +1,11 @@
+#Vivado Project of Reference Design
+RefDesign
+
+#Merging and temporary files
+*.bak
+README.txt
+
+#Default Workspace
+Sdk/ws
+
+

@@ -1,0 +1,2 @@
+#Exclude files that are re-generated automatically
+psu_cortexa53_*

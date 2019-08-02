@@ -1,0 +1,4 @@
+#Exclude files that are re-generated automatically
+drivers
+psu_init*
+*.bit

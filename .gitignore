@@ -1,0 +1,5 @@
+#Packaging artifacts
+scripts/package_prj
+xgui/*.tcl
+!xgui/psi_ms_daq_axi_*
+

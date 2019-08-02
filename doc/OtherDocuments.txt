@@ -1,0 +1,5 @@
+Further documentation can be found in:
+
+https://github.com/paulscherrerinstitute/psi_multi_stream_daq
+
+Because the main functionality is implemented tool/device independent and documented there.
