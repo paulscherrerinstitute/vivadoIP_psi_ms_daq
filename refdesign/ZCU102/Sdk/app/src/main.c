@@ -66,8 +66,8 @@ void Str0Irq(PsiMsDaq_WinInfo_t winInfo, void* arg)
 	printf("> Values:");
 	for (int i = 0; i < 10; i++) {
 		printf(" %d", data[i]);
-		//Sample 5 is the trigger sample, mark it in the print
-		if (i == 5) {
+		//Sample 4 is the trigger sample, mark it in the print
+		if (i == 4) {
 			printf("=T");
 		}
 	}
@@ -101,7 +101,7 @@ void Str1Irq(PsiMsDaq_WinInfo_t winInfo, void* arg)
 	ret = PsiMsDaq_StrWin_GetDataUnwrapped(winInfo, PRE_TRIG_CHECK, POST_TRIG_CHECK, buf, sizeof(buf));
 	if (PsiMsDaq_RetCode_Success != ret) printf("PsiMsDaq_StrWin_GetDataUnwrapped() failed: %d\n", ret);
 	uint32_t* data = (uint32_t*)buf;
-	printf("> Trigger Sample: %d\n", data[PRE_TRIG_CHECK]);
+	printf("> Trigger Sample: %d\n", data[PRE_TRIG_CHECK-1]);
 	printf("> First Sample  : %d\n", data[0]);
 	printf("> Check if continuous ... ");
 	uint32_t exp = data[0];

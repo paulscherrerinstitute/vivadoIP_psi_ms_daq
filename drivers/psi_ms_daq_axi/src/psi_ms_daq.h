@@ -6,6 +6,10 @@
 
 #pragma once
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 //*******************************************************************************
 // Documentation
 //*******************************************************************************
@@ -113,13 +117,13 @@
 *       .winSize = <sizePerWindow>, //in bytes
 *       .streamWidthBits = <widthInBits>
 *   };
-*   PsiMsDaq_Str_Configure(daqHandle, &cfg);
+*   PsiMsDaq_Str_Configure(daqStrHandle, &cfg);
 *   //Register ballback
-*   PsiMsDaq_Str_SetIrqCallbackWin(daqHandle, UserDaqIsr, NULL);
+*   PsiMsDaq_Str_SetIrqCallbackWin(daqStrHandle, UserDaqIsr, NULL);
 *   //Enable IRQ
-*   PsiMsDaq_Str_SetIrqEnable(daqHandle, true);
+*   PsiMsDaq_Str_SetIrqEnable(daqStrHandle, true);
 *   //Enable recorder for stream
-*   PsiMsDaq_Str_SetEnable(daqHandle, true);
+*   PsiMsDaq_Str_SetEnable(daqStrHandle, true);
 *
 *   //Wait in endless loop for IRQs comming in
 *   while(1){};
@@ -252,7 +256,7 @@ typedef enum {
 	PsiMsDaqn_RecMode_Continuous	= 0,	///< Continuous recording
 	PsiMsDaqn_RecMode_TriggerMask	= 1,	///< Continuously record pre-trigger data but only detect triggers after PsiMsDaq_Str_Arm() was called
 	PsiMsDaqn_RecMode_SingleShot	= 2,	///< Only record pre-trigger after PsiMsDaq_Str_Arm() was called and stop recording after one trigger
-	PsiMsDaqn_RecMode_Manual		= 3,	///< Manaully control the recording by setting and clearing the arm bit
+	PsiMsDaqn_RecMode_Manual		= 3 	///< Manaully control the recording by setting and clearing the arm bit
 } PsiMsDaq_RecMode_t;
 
 /**
@@ -421,6 +425,14 @@ PsiMsDaq_RetCode_t PsiMsDaq_Str_Arm(PsiMsDaq_StrHandle strHndl);
  */
 PsiMsDaq_RetCode_t PsiMsDaq_Str_GetMaxLvl(	PsiMsDaq_StrHandle strHndl,
 											uint32_t* const maxLvl_p);
+											
+/**
+ * @brief	Clear the maximum input buffer fill level
+ *
+ * @param	strHndl		Driver handle for the stream
+ * @return	Return Code
+ */
+PsiMsDaq_RetCode_t PsiMsDaq_Str_ClrMaxLvl(	PsiMsDaq_StrHandle strHndl);
 
 /**
  * @brief	Get the number of free windows.
@@ -697,6 +709,10 @@ PsiMsDaq_RetCode_t PsiMsDaq_RegGetBit(	PsiMsDaq_IpHandle ipHandle,
 										const uint32_t addr,
 										const uint32_t mask,
 										bool* const value_p);
+										
+#ifdef __cplusplus
+}
+#endif
 
 
 
