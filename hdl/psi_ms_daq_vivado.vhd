@@ -29,12 +29,12 @@ entity psi_ms_daq_vivado is
 		MinBurstSize_g			: integer range 1 to 512		:= 16;
 		MaxBurstSize_g			: integer range 1 to 512		:= 256;
 		-- Axi
-		AxiDataWidth_g			: natural range 64 to 1024		:= 64;
-		AxiMaxBurstBeats_g		: integer range 1 to 256		:= 256;
+		AxiDataWidth_g			: natural range 64 to 1024		:= 512;
+		AxiMaxBurstBeats_g		: integer range 1 to 256		:= 4;
 		AxiMaxOpenTrasactions_g	: natural range 1 to 8			:= 8;
 		AxiFifoDepth_g			: natural						:= 1024;		
 		-- Streams
-		Stream0Width_g			: integer range 8 to 64			:= 32;
+		Stream0Width_g			: integer range 8 to 512			:= 32;
 		Stream0Prio_g			: integer range 1 to 3			:= 2;
 		Stream0Buffer_g			: integer 						:= 256;
 		Stream0TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -42,7 +42,7 @@ entity psi_ms_daq_vivado is
 		Stream0TsFifoDepth_g	: integer						:= 16;
 		Stream0UseTs_g			: boolean						:= true;
 
-		Stream1Width_g			: integer range 8 to 64			:= 32;
+		Stream1Width_g			: integer range 8 to 512			:= 32;
 		Stream1Prio_g			: integer range 1 to 3			:= 2;
 		Stream1Buffer_g			: integer 						:= 256;
 		Stream1TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -50,7 +50,7 @@ entity psi_ms_daq_vivado is
 		Stream1TsFifoDepth_g	: integer						:= 16;
 		Stream1UseTs_g			: boolean						:= true;
 
-		Stream2Width_g			: integer range 8 to 64			:= 32;
+		Stream2Width_g			: integer range 8 to 512			:= 32;
 		Stream2Prio_g			: integer range 1 to 3			:= 2;
 		Stream2Buffer_g			: integer 						:= 256;
 		Stream2TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -58,7 +58,7 @@ entity psi_ms_daq_vivado is
 		Stream2TsFifoDepth_g	: integer						:= 16;
 		Stream2UseTs_g			: boolean						:= true;
 
-		Stream3Width_g			: integer range 8 to 64			:= 32;
+		Stream3Width_g			: integer range 8 to 512			:= 32;
 		Stream3Prio_g			: integer range 1 to 3			:= 2;
 		Stream3Buffer_g			: integer 						:= 256;
 		Stream3TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -66,7 +66,7 @@ entity psi_ms_daq_vivado is
 		Stream3TsFifoDepth_g	: integer						:= 16;
 		Stream3UseTs_g			: boolean						:= true;
 
-		Stream4Width_g			: integer range 8 to 64			:= 32;
+		Stream4Width_g			: integer range 8 to 512			:= 32;
 		Stream4Prio_g			: integer range 1 to 3			:= 2;
 		Stream4Buffer_g			: integer 						:= 256;
 		Stream4TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -74,7 +74,7 @@ entity psi_ms_daq_vivado is
 		Stream4TsFifoDepth_g	: integer						:= 16;
 		Stream4UseTs_g			: boolean						:= true;
 
-		Stream5Width_g			: integer range 8 to 64			:= 32;
+		Stream5Width_g			: integer range 8 to 512			:= 32;
 		Stream5Prio_g			: integer range 1 to 3			:= 2;
 		Stream5Buffer_g			: integer 						:= 256;
 		Stream5TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -82,7 +82,7 @@ entity psi_ms_daq_vivado is
 		Stream5TsFifoDepth_g	: integer						:= 16;
 		Stream5UseTs_g			: boolean						:= true;		
 
-		Stream6Width_g			: integer range 8 to 64			:= 32;
+		Stream6Width_g			: integer range 8 to 512			:= 32;
 		Stream6Prio_g			: integer range 1 to 3			:= 2;
 		Stream6Buffer_g			: integer 						:= 256;
 		Stream6TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -90,7 +90,7 @@ entity psi_ms_daq_vivado is
 		Stream6TsFifoDepth_g	: integer						:= 16;
 		Stream6UseTs_g			: boolean						:= true;	
 		
-		Stream7Width_g			: integer range 8 to 64			:= 32;
+		Stream7Width_g			: integer range 8 to 512			:= 32;
 		Stream7Prio_g			: integer range 1 to 3			:= 2;
 		Stream7Buffer_g			: integer 						:= 256;
 		Stream7TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -98,7 +98,7 @@ entity psi_ms_daq_vivado is
 		Stream7TsFifoDepth_g	: integer						:= 16;
 		Stream7UseTs_g			: boolean						:= true;	
 		
-		Stream8Width_g			: integer range 8 to 64			:= 32;
+		Stream8Width_g			: integer range 8 to 512			:= 32;
 		Stream8Prio_g			: integer range 1 to 3			:= 2;
 		Stream8Buffer_g			: integer 						:= 256;
 		Stream8TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -106,7 +106,7 @@ entity psi_ms_daq_vivado is
 		Stream8TsFifoDepth_g	: integer						:= 16;
 		Stream8UseTs_g			: boolean						:= true;	
 		
-		Stream9Width_g			: integer range 8 to 64			:= 32;
+		Stream9Width_g			: integer range 8 to 512			:= 32;
 		Stream9Prio_g			: integer range 1 to 3			:= 2;
 		Stream9Buffer_g			: integer 						:= 256;
 		Stream9TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -114,7 +114,7 @@ entity psi_ms_daq_vivado is
 		Stream9TsFifoDepth_g	: integer						:= 16;
 		Stream9UseTs_g			: boolean						:= true;	
 		
-		Stream10Width_g			: integer range 8 to 64			:= 32;
+		Stream10Width_g			: integer range 8 to 512			:= 32;
 		Stream10Prio_g			: integer range 1 to 3			:= 2;
 		Stream10Buffer_g		: integer 						:= 256;
 		Stream10TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -122,7 +122,7 @@ entity psi_ms_daq_vivado is
 		Stream10TsFifoDepth_g	: integer						:= 16;
 		Stream10UseTs_g			: boolean						:= true;	
 		
-		Stream11Width_g			: integer range 8 to 64			:= 32;
+		Stream11Width_g			: integer range 8 to 512			:= 32;
 		Stream11Prio_g			: integer range 1 to 3			:= 2;
 		Stream11Buffer_g		: integer 						:= 256;
 		Stream11TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -130,7 +130,7 @@ entity psi_ms_daq_vivado is
 		Stream11TsFifoDepth_g	: integer						:= 16;
 		Stream11UseTs_g			: boolean						:= true;	
 		
-		Stream12Width_g			: integer range 8 to 64			:= 32;
+		Stream12Width_g			: integer range 8 to 512			:= 32;
 		Stream12Prio_g			: integer range 1 to 3			:= 2;
 		Stream12Buffer_g		: integer 						:= 256;
 		Stream12TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -138,7 +138,7 @@ entity psi_ms_daq_vivado is
 		Stream12TsFifoDepth_g	: integer						:= 16;
 		Stream12UseTs_g			: boolean						:= true;
 
-		Stream13Width_g			: integer range 8 to 64			:= 32;
+		Stream13Width_g			: integer range 8 to 512			:= 32;
 		Stream13Prio_g			: integer range 1 to 3			:= 2;
 		Stream13Buffer_g		: integer 						:= 256;
 		Stream13TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -146,7 +146,7 @@ entity psi_ms_daq_vivado is
 		Stream13TsFifoDepth_g	: integer						:= 16;
 		Stream13UseTs_g			: boolean						:= true;
 
-		Stream14Width_g			: integer range 8 to 64			:= 32;
+		Stream14Width_g			: integer range 8 to 512			:= 32;
 		Stream14Prio_g			: integer range 1 to 3			:= 2;
 		Stream14Buffer_g		: integer 						:= 256;
 		Stream14TimeoutUs_g		: integer						:= 1e3;		-- in microseconds	
@@ -154,7 +154,7 @@ entity psi_ms_daq_vivado is
 		Stream14TsFifoDepth_g	: integer						:= 16;
 		Stream14UseTs_g			: boolean						:= true;
 
-		Stream15Width_g			: integer range 8 to 64			:= 32;
+		Stream15Width_g			: integer range 8 to 512			:= 32;
 		Stream15Prio_g			: integer range 1 to 3			:= 2;
 		Stream15Buffer_g		: integer 						:= 256;
 		Stream15TimeoutUs_g		: integer						:= 1e3;		-- in microseconds
@@ -348,14 +348,14 @@ end entity psi_ms_daq_vivado;
 -- Architecture section
 ------------------------------------------------------------------------------
 
-architecture rtl of psi_ms_daq_vivado is 
+architecture rtl of psi_ms_daq_vivado is
 	signal All_Clk	: std_logic_vector(0 to 15)	:= (others => '0');
-	signal All_Data	: t_aslv64(0 to 15)			:= (others => (others => '0'));
+	signal All_Data	: t_aslv512(0 to 15)			:= (others => (others => '0'));
 	signal All_Ts	: t_aslv64(0 to 15)			:= (others => (others => '0'));
 	signal All_Vld	: std_logic_vector(0 to 15)	:= (others => '0');
 	signal All_Rdy	: std_logic_vector(0 to 15)	:= (others => '0');
 	signal Str_Clk	: std_logic_vector(Streams_g-1 downto 0);
-	signal Str_Data	: t_aslv64(Streams_g-1 downto 0);
+	signal Str_Data	: t_aslv512(Streams_g-1 downto 0);
 	signal Str_Ts	: t_aslv64(Streams_g-1 downto 0);
 	signal Str_Vld	: std_logic_vector(Streams_g-1 downto 0);
 	signal Str_Rdy	: std_logic_vector(Streams_g-1 downto 0);

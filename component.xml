@@ -3,7 +3,7 @@
   <spirit:vendor>psi.ch</spirit:vendor>
   <spirit:library>PSI</spirit:library>
   <spirit:name>psi_ms_daq_axi</spirit:name>
-  <spirit:version>1.2</spirit:version>
+  <spirit:version>1.4</spirit:version>
   <spirit:busInterfaces>
     <spirit:busInterface>
       <spirit:name>Str00</spirit:name>
@@ -1673,7 +1673,7 @@
         <spirit:name>xilinx_anylanguagesynthesis</spirit:name>
         <spirit:displayName>Synthesis</spirit:displayName>
         <spirit:envIdentifier>:vivado.xilinx.com:synthesis</spirit:envIdentifier>
-        <spirit:language>VHDL</spirit:language>
+        <spirit:language>VHDL-2008</spirit:language>
         <spirit:modelName>psi_ms_daq_vivado</spirit:modelName>
         <spirit:fileSetRef>
           <spirit:localName>xilinx_anylanguagesynthesis_view_fileset</spirit:localName>
@@ -1681,7 +1681,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>6f31bccb</spirit:value>
+            <spirit:value>9c8c8df7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1689,7 +1689,7 @@
         <spirit:name>xilinx_anylanguagebehavioralsimulation</spirit:name>
         <spirit:displayName>Simulation</spirit:displayName>
         <spirit:envIdentifier>:vivado.xilinx.com:simulation</spirit:envIdentifier>
-        <spirit:language>VHDL</spirit:language>
+        <spirit:language>VHDL-2008</spirit:language>
         <spirit:modelName>psi_ms_daq_vivado</spirit:modelName>
         <spirit:fileSetRef>
           <spirit:localName>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:localName>
@@ -1697,7 +1697,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>6f31bccb</spirit:value>
+            <spirit:value>9c8c8df7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1753,7 +1753,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>65eb0fc6</spirit:value>
+            <spirit:value>d7ad00db</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -4989,7 +4989,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream0Width_g</spirit:name>
         <spirit:displayName>Stream0width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream0Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream0Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream0Prio_g</spirit:name>
@@ -5024,7 +5024,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream1Width_g</spirit:name>
         <spirit:displayName>Stream1width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream1Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream1Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream1Prio_g</spirit:name>
@@ -5059,7 +5059,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream2Width_g</spirit:name>
         <spirit:displayName>Stream2width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream2Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream2Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream2Prio_g</spirit:name>
@@ -5094,7 +5094,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream3Width_g</spirit:name>
         <spirit:displayName>Stream3width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream3Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream3Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream3Prio_g</spirit:name>
@@ -5129,7 +5129,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream4Width_g</spirit:name>
         <spirit:displayName>Stream4width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream4Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream4Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream4Prio_g</spirit:name>
@@ -5164,7 +5164,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream5Width_g</spirit:name>
         <spirit:displayName>Stream5width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream5Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream5Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream5Prio_g</spirit:name>
@@ -5199,7 +5199,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream6Width_g</spirit:name>
         <spirit:displayName>Stream6width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream6Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream6Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream6Prio_g</spirit:name>
@@ -5234,7 +5234,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream7Width_g</spirit:name>
         <spirit:displayName>Stream7width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream7Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream7Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream7Prio_g</spirit:name>
@@ -5269,7 +5269,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream8Width_g</spirit:name>
         <spirit:displayName>Stream8width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream8Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream8Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream8Prio_g</spirit:name>
@@ -5304,7 +5304,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream9Width_g</spirit:name>
         <spirit:displayName>Stream9width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream9Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream9Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream9Prio_g</spirit:name>
@@ -5339,7 +5339,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream10Width_g</spirit:name>
         <spirit:displayName>Stream10width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream10Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream10Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream10Prio_g</spirit:name>
@@ -5374,7 +5374,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream11Width_g</spirit:name>
         <spirit:displayName>Stream11width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream11Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream11Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream11Prio_g</spirit:name>
@@ -5409,7 +5409,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream12Width_g</spirit:name>
         <spirit:displayName>Stream12width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream12Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream12Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream12Prio_g</spirit:name>
@@ -5444,7 +5444,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream13Width_g</spirit:name>
         <spirit:displayName>Stream13width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream13Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream13Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream13Prio_g</spirit:name>
@@ -5479,7 +5479,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream14Width_g</spirit:name>
         <spirit:displayName>Stream14width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream14Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream14Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream14Prio_g</spirit:name>
@@ -5514,7 +5514,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream15Width_g</spirit:name>
         <spirit:displayName>Stream15width G</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream15Width_g" spirit:minimum="8" spirit:maximum="64" spirit:rangeType="long">32</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.Stream15Width_g" spirit:minimum="8" spirit:maximum="512" spirit:rangeType="long">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>Stream15Prio_g</spirit:name>
@@ -5561,13 +5561,6 @@
       <spirit:enumeration>3</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
-      <spirit:name>choice_list_68b10af5</spirit:name>
-      <spirit:enumeration>8</spirit:enumeration>
-      <spirit:enumeration>16</spirit:enumeration>
-      <spirit:enumeration>32</spirit:enumeration>
-      <spirit:enumeration>64</spirit:enumeration>
-    </spirit:choice>
-    <spirit:choice>
       <spirit:name>choice_list_74b5137e</spirit:name>
       <spirit:enumeration>ACTIVE_HIGH</spirit:enumeration>
       <spirit:enumeration>ACTIVE_LOW</spirit:enumeration>
@@ -5579,6 +5572,16 @@
       <spirit:enumeration>256</spirit:enumeration>
       <spirit:enumeration>512</spirit:enumeration>
       <spirit:enumeration>1024</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_98854148</spirit:name>
+      <spirit:enumeration>8</spirit:enumeration>
+      <spirit:enumeration>16</spirit:enumeration>
+      <spirit:enumeration>32</spirit:enumeration>
+      <spirit:enumeration>64</spirit:enumeration>
+      <spirit:enumeration>128</spirit:enumeration>
+      <spirit:enumeration>256</spirit:enumeration>
+      <spirit:enumeration>512</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
       <spirit:name>choice_list_9ca20931</spirit:name>
@@ -5593,263 +5596,263 @@
       <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_array_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_math_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_logic_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_arb_priority.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_sdp_ram.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_pulse_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_async_fifo.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_sync_fifo.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_master_simple.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_wconv_n2xn.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_master_full.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_pl_stage.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_slave_ipif.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_bit_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_simple_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_status_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_tdp_ram.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_reg_axi.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_input.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_daq_sm.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_daq_dma.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_axi_if.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_axi.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/psi_ms_daq_vivado.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_483971cf</spirit:userFileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_c891ccf5</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
       <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_array_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_math_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_logic_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_arb_priority.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_sdp_ram.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_pulse_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_async_fifo.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_sync_fifo.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_master_simple.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_wconv_n2xn.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_master_full.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_pl_stage.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_slave_ipif.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_bit_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_simple_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_status_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_tdp_ram.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_reg_axi.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_input.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_daq_sm.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_daq_dma.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_axi_if.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_axi.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/psi_ms_daq_vivado.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:logicalName>psi_ms_daq_axi_1_4</spirit:logicalName>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
       <spirit:name>xilinx_xpgui_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>xgui/psi_ms_daq_axi_v1_2.tcl</spirit:name>
+        <spirit:name>xgui/psi_ms_daq_axi_v1_4.tcl</spirit:name>
         <spirit:fileType>tclSource</spirit:fileType>
         <spirit:userFileType>CHECKSUM_29b9ef51</spirit:userFileType>
         <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
@@ -5943,7 +5946,7 @@
     <spirit:parameter>
       <spirit:name>Stream0Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream0Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream0Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream0Prio_g</spirit:name>
@@ -5978,7 +5981,7 @@
     <spirit:parameter>
       <spirit:name>Stream1Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream1Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream1Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream1Prio_g</spirit:name>
@@ -6013,7 +6016,7 @@
     <spirit:parameter>
       <spirit:name>Stream2Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream2Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream2Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream2Prio_g</spirit:name>
@@ -6048,7 +6051,7 @@
     <spirit:parameter>
       <spirit:name>Stream3Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream3Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream3Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream3Prio_g</spirit:name>
@@ -6083,7 +6086,7 @@
     <spirit:parameter>
       <spirit:name>Stream4Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream4Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream4Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream4Prio_g</spirit:name>
@@ -6118,7 +6121,7 @@
     <spirit:parameter>
       <spirit:name>Stream5Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream5Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream5Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream5Prio_g</spirit:name>
@@ -6153,7 +6156,7 @@
     <spirit:parameter>
       <spirit:name>Stream6Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream6Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream6Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream6Prio_g</spirit:name>
@@ -6188,7 +6191,7 @@
     <spirit:parameter>
       <spirit:name>Stream7Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream7Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream7Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream7Prio_g</spirit:name>
@@ -6223,7 +6226,7 @@
     <spirit:parameter>
       <spirit:name>Stream8Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream8Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream8Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream8Prio_g</spirit:name>
@@ -6258,7 +6261,7 @@
     <spirit:parameter>
       <spirit:name>Stream9Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream9Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream9Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream9Prio_g</spirit:name>
@@ -6293,7 +6296,7 @@
     <spirit:parameter>
       <spirit:name>Stream10Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream10Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream10Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream10Prio_g</spirit:name>
@@ -6328,7 +6331,7 @@
     <spirit:parameter>
       <spirit:name>Stream11Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream11Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream11Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream11Prio_g</spirit:name>
@@ -6363,7 +6366,7 @@
     <spirit:parameter>
       <spirit:name>Stream12Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream12Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream12Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream12Prio_g</spirit:name>
@@ -6398,7 +6401,7 @@
     <spirit:parameter>
       <spirit:name>Stream13Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream13Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream13Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream13Prio_g</spirit:name>
@@ -6433,7 +6436,7 @@
     <spirit:parameter>
       <spirit:name>Stream14Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream14Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream14Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream14Prio_g</spirit:name>
@@ -6468,7 +6471,7 @@
     <spirit:parameter>
       <spirit:name>Stream15Width_g</spirit:name>
       <spirit:displayName>Data Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream15Width_g" spirit:choiceRef="choice_list_68b10af5">32</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.Stream15Width_g" spirit:choiceRef="choice_list_98854148">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Stream15Prio_g</spirit:name>
@@ -6537,37 +6540,40 @@
       <xilinx:taxonomies>
         <xilinx:taxonomy>/UserIP</xilinx:taxonomy>
       </xilinx:taxonomies>
-      <xilinx:displayName>psi_ms_daq_axi_1_2</xilinx:displayName>
+      <xilinx:displayName>psi_ms_daq_axi_1_4</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
-      <xilinx:vendorDisplayName>Paul Scherrer Institut</xilinx:vendorDisplayName>
+      <xilinx:vendorDisplayName>Paul Scherrer Institute</xilinx:vendorDisplayName>
       <xilinx:vendorURL>http://www.psi.ch</xilinx:vendorURL>
-      <xilinx:coreRevision>1574155214</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2019-11-19T09:22:11Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2021-02-26T08:04:38Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1528d14d_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c1e6bc_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4937d41a_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@ce7d40b_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1054cf76_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@11d0a83a_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@70e3d515_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4fb73e24_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bfbb784_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@60cf6c86_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@9042a7b_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@53e1f9fa_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5055e0f_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ca55b86_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54c6eee0_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57102d2_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1db7a85a_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67e5a1fd_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b514752_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@49e0c1b0_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@162f3a0b_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42297968_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e54a94e_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b5bb4c3_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c9d260c_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38f17826_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b05afb3_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d1412cf_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30b138a9_ARCHIVE_LOCATION">p:/psi/DBPM3/Dbpm3_But0G5/Library/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2019.1</xilinx:xilinxVersion>
-      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="5e5b54af"/>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="3f08e063"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="0df2c719"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="5735148b"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="e1f49cc2"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="7afe4a57"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="b50abbef"/>
-      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="c7f33bd7"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="fef61cce"/>
+      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="308b8f5d"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="12acf05c"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

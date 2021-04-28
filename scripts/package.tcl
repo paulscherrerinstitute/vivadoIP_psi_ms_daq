@@ -14,7 +14,7 @@ namespace import -force psi::ip_package::latest::*
 # General Information
 ###############################################################
 set IP_NAME psi_ms_daq_axi
-set IP_VERSION 1.2
+set IP_VERSION 1.4
 set IP_REVISION "auto"
 set IP_LIBRARY PSI
 set IP_DESCIRPTION "Mutli channel data recorder (to AXI memory)"
@@ -131,7 +131,7 @@ for {set i 0} {$i < 16} {incr i} {
 	gui_add_page "Stream $i"
 	
 	gui_create_parameter "Stream$i\Width_g" "Data Width"
-	gui_parameter_set_widget_dropdown {8 16 32 64}
+	gui_parameter_set_widget_dropdown {8 16 32 64 128 256 512}
 	gui_add_parameter	
 	
 	gui_create_parameter "Stream$i\Prio_g" "Priority"
