@@ -5,7 +5,9 @@ proc init_gui { IPINST } {
   set General_Configuration [ipgui::add_page $IPINST -name "General Configuration"]
   ipgui::add_param $IPINST -name "Streams_g" -parent ${General_Configuration}
   ipgui::add_param $IPINST -name "TsPerStream_g" -parent ${General_Configuration}
+  ipgui::add_param $IPINST -name "UseLastAsTrigger_g" -parent ${General_Configuration}
   ipgui::add_param $IPINST -name "MaxWindows_g" -parent ${General_Configuration}
+  ipgui::add_param $IPINST -name "IntDataWidth_g" -parent ${General_Configuration} -widget comboBox
   ipgui::add_param $IPINST -name "MinBurstSize_g" -parent ${General_Configuration}
   ipgui::add_param $IPINST -name "MaxBurstSize_g" -parent ${General_Configuration}
 
@@ -221,6 +223,15 @@ proc update_PARAM_VALUE.C_S_Axi_ID_WIDTH { PARAM_VALUE.C_S_Axi_ID_WIDTH } {
 
 proc validate_PARAM_VALUE.C_S_Axi_ID_WIDTH { PARAM_VALUE.C_S_Axi_ID_WIDTH } {
 	# Procedure called to validate C_S_Axi_ID_WIDTH
+	return true
+}
+
+proc update_PARAM_VALUE.IntDataWidth_g { PARAM_VALUE.IntDataWidth_g } {
+	# Procedure called to update IntDataWidth_g when any of the dependent parameters in the arguments change
+}
+
+proc validate_PARAM_VALUE.IntDataWidth_g { PARAM_VALUE.IntDataWidth_g } {
+	# Procedure called to validate IntDataWidth_g
 	return true
 }
 
@@ -1277,6 +1288,15 @@ proc validate_PARAM_VALUE.TsPerStream_g { PARAM_VALUE.TsPerStream_g } {
 	return true
 }
 
+proc update_PARAM_VALUE.UseLastAsTrigger_g { PARAM_VALUE.UseLastAsTrigger_g } {
+	# Procedure called to update UseLastAsTrigger_g when any of the dependent parameters in the arguments change
+}
+
+proc validate_PARAM_VALUE.UseLastAsTrigger_g { PARAM_VALUE.UseLastAsTrigger_g } {
+	# Procedure called to validate UseLastAsTrigger_g
+	return true
+}
+
 
 proc update_MODELPARAM_VALUE.Streams_g { MODELPARAM_VALUE.Streams_g PARAM_VALUE.Streams_g } {
 	# Procedure called to set VHDL generic/Verilog parameter value(s) based on TCL parameter value
@@ -1286,6 +1306,16 @@ proc update_MODELPARAM_VALUE.Streams_g { MODELPARAM_VALUE.Streams_g PARAM_VALUE.
 proc update_MODELPARAM_VALUE.TsPerStream_g { MODELPARAM_VALUE.TsPerStream_g PARAM_VALUE.TsPerStream_g } {
 	# Procedure called to set VHDL generic/Verilog parameter value(s) based on TCL parameter value
 	set_property value [get_property value ${PARAM_VALUE.TsPerStream_g}] ${MODELPARAM_VALUE.TsPerStream_g}
+}
+
+proc update_MODELPARAM_VALUE.UseLastAsTrigger_g { MODELPARAM_VALUE.UseLastAsTrigger_g PARAM_VALUE.UseLastAsTrigger_g } {
+	# Procedure called to set VHDL generic/Verilog parameter value(s) based on TCL parameter value
+	set_property value [get_property value ${PARAM_VALUE.UseLastAsTrigger_g}] ${MODELPARAM_VALUE.UseLastAsTrigger_g}
+}
+
+proc update_MODELPARAM_VALUE.IntDataWidth_g { MODELPARAM_VALUE.IntDataWidth_g PARAM_VALUE.IntDataWidth_g } {
+	# Procedure called to set VHDL generic/Verilog parameter value(s) based on TCL parameter value
+	set_property value [get_property value ${PARAM_VALUE.IntDataWidth_g}] ${MODELPARAM_VALUE.IntDataWidth_g}
 }
 
 proc update_MODELPARAM_VALUE.MaxWindows_g { MODELPARAM_VALUE.MaxWindows_g PARAM_VALUE.MaxWindows_g } {

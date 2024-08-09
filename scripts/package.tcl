@@ -61,11 +61,11 @@ add_lib_relative \
 		VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_axi_if.vhd \
 		VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_reg_axi.vhd \
 		VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_axi.vhd \
-	}		
+	}
 
 ###############################################################
 # Driver Files
-###############################################################	
+###############################################################
 
 #WARNING! Driver files are stored with the VHDL code. If they are modified,
 #... the modifications need to be made there. The local files are overwritten
@@ -79,7 +79,7 @@ file copy -force ../../../VHDL/psi_multi_stream_daq/driver/psi_ms_daq.h ../drive
 add_drivers_relative ../drivers/psi_ms_daq_axi { \
 	src/psi_ms_daq.c \
 	src/psi_ms_daq.h \
-}	
+}
 
 ###############################################################
 # GUI Parameters
@@ -94,17 +94,25 @@ gui_add_parameter
 
 gui_create_parameter "TsPerStream_g" "Use separate Timestamp per stream"
 gui_parameter_set_widget_checkbox
-gui_add_parameter	
+gui_add_parameter
+
+gui_create_parameter "UseLastAsTrigger_g" "Use AXI-S Last signal as trigger"
+gui_parameter_set_widget_checkbox
+gui_add_parameter
 
 gui_create_parameter "MaxWindows_g" "Maximum number of Windows per Stream"
 gui_parameter_set_range 1 32
 gui_add_parameter
 
-gui_create_parameter "MinBurstSize_g" "Minimum burst size to memory \[64-bit words\]"
+gui_create_parameter "IntDataWidth_g" "Internal Data Width \[max(Stream Data Width) <= Internal Data Width <= AXI Master Data Width\]"
+gui_parameter_set_widget_dropdown {64 128 256}
+gui_add_parameter
+
+gui_create_parameter "MinBurstSize_g" "Minimum burst size to memory \[words with internal data width\]"
 gui_parameter_set_range 1 512
 gui_add_parameter
 
-gui_create_parameter "MaxBurstSize_g" "Maximum burst size to memory \[64-bit words\]"
+gui_create_parameter "MaxBurstSize_g" "Maximum burst size to memory \[words with internal data width\]"
 gui_parameter_set_range 1 512
 gui_add_parameter
 
@@ -129,30 +137,30 @@ gui_add_parameter
 #Streams
 for {set i 0} {$i < 16} {incr i} {
 	gui_add_page "Stream $i"
-	
+
 	gui_create_parameter "Stream$i\Width_g" "Data Width"
 	gui_parameter_set_widget_dropdown {8 16 32 64}
-	gui_add_parameter	
-	
+	gui_add_parameter
+
 	gui_create_parameter "Stream$i\Prio_g" "Priority"
 	gui_parameter_set_widget_dropdown {1 2 3}
 	gui_add_parameter
 
 	gui_create_parameter "Stream$i\Buffer_g" "Buffer \[in input words\]"
-	gui_add_parameter		
+	gui_add_parameter
 
 	gui_create_parameter "Stream$i\TimeoutUs_g" "Timeout \[us\]"
-	gui_add_parameter		
-	
+	gui_add_parameter
+
 	gui_create_parameter "Stream$i\ClkFreqHz_g" "Clock Frequency \[Hz\]"
-	gui_add_parameter		
-	
+	gui_add_parameter
+
 	gui_create_parameter "Stream$i\TsFifoDepth_g" "Timestamp FIFO depth"
-	gui_add_parameter		
-	
+	gui_add_parameter
+
 	gui_create_parameter "Stream$i\UseTs_g" "Use Timestamp"
 	gui_parameter_set_widget_checkbox
-	gui_add_parameter		
+	gui_add_parameter
 }
 
 
@@ -166,10 +174,12 @@ for {set i 0} {$i < 16} {incr i} {
 	add_port_enablement_condition "Str$i02\_Ts" "(\$Streams_g > $i) && \$Stream$i\UseTs_g && \$TsPerStream_g"
 	add_port_enablement_condition "Str$i02\_TValid" "\$Streams_g > $i"
 	add_port_enablement_condition "Str$i02\_TReady" "\$Streams_g > $i"
+	add_port_enablement_condition "Str$i02\_TLast" "\$Streams_g > $i"
 	add_port_enablement_condition "Str$i02\_Clk" "\$Streams_g > $i"
 	add_interface_enablement_condition "Str$i02" "\$Streams_g > $i"
 }
 add_port_enablement_condition "StrX_Ts" "!\$TsPerStream_g"
+add_port_enablement_condition "Trig"    "!\$UseLastAsTrigger_g"
 
 ###############################################################
 # Package Core
@@ -177,7 +187,3 @@ add_port_enablement_condition "StrX_Ts" "!\$TsPerStream_g"
 set TargetDir ".."
 #											Edit  Synth	Part
 package_ip $TargetDir 						false  true	xczu9eg-ffvb1156-2-e
-
-
-
-
