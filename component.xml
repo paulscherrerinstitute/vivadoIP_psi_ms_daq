@@ -21,6 +21,14 @@
         </spirit:portMap>
         <spirit:portMap>
           <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str00_TLast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
             <spirit:name>TVALID</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
@@ -56,6 +64,14 @@
           </spirit:logicalPort>
           <spirit:physicalPort>
             <spirit:name>Str01_TData</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str01_TLast</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
@@ -99,6 +115,14 @@
         </spirit:portMap>
         <spirit:portMap>
           <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str02_TLast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
             <spirit:name>TVALID</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
@@ -134,6 +158,14 @@
           </spirit:logicalPort>
           <spirit:physicalPort>
             <spirit:name>Str03_TData</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str03_TLast</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
@@ -177,6 +209,14 @@
         </spirit:portMap>
         <spirit:portMap>
           <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str04_TLast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
             <spirit:name>TVALID</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
@@ -212,6 +252,14 @@
           </spirit:logicalPort>
           <spirit:physicalPort>
             <spirit:name>Str05_TData</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str05_TLast</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
@@ -255,6 +303,14 @@
         </spirit:portMap>
         <spirit:portMap>
           <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str06_TLast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
             <spirit:name>TVALID</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
@@ -290,6 +346,14 @@
           </spirit:logicalPort>
           <spirit:physicalPort>
             <spirit:name>Str07_TData</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str07_TLast</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
@@ -333,6 +397,14 @@
         </spirit:portMap>
         <spirit:portMap>
           <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str08_TLast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
             <spirit:name>TVALID</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
@@ -368,6 +440,14 @@
           </spirit:logicalPort>
           <spirit:physicalPort>
             <spirit:name>Str09_TData</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str09_TLast</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
@@ -411,6 +491,14 @@
         </spirit:portMap>
         <spirit:portMap>
           <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str10_TLast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
             <spirit:name>TVALID</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
@@ -446,6 +534,14 @@
           </spirit:logicalPort>
           <spirit:physicalPort>
             <spirit:name>Str11_TData</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str11_TLast</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
@@ -489,6 +585,14 @@
         </spirit:portMap>
         <spirit:portMap>
           <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str12_TLast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
             <spirit:name>TVALID</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
@@ -524,6 +628,14 @@
           </spirit:logicalPort>
           <spirit:physicalPort>
             <spirit:name>Str13_TData</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str13_TLast</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
@@ -567,6 +679,14 @@
         </spirit:portMap>
         <spirit:portMap>
           <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str14_TLast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
             <spirit:name>TVALID</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
@@ -602,6 +722,14 @@
           </spirit:logicalPort>
           <spirit:physicalPort>
             <spirit:name>Str15_TData</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>Str15_TLast</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
@@ -1651,18 +1779,21 @@
   <spirit:addressSpaces>
     <spirit:addressSpace>
       <spirit:name>M_Axi</spirit:name>
-      <spirit:range spirit:format="long" spirit:resolve="user" spirit:minimum="4096" spirit:rangeType="long">4294967296</spirit:range>
-      <spirit:width spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.AxiDataWidth_g&apos;)) - 1) + 1">64</spirit:width>
+      <spirit:displayName>M_Axi</spirit:displayName>
+      <spirit:range spirit:format="bitString" spirit:bitStringLength="33" spirit:minimum="4096" spirit:rangeType="long">0x100000000</spirit:range>
+      <spirit:width spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.AxiDataWidth_g&apos;)) - 1) - 0 + 1">64</spirit:width>
     </spirit:addressSpace>
   </spirit:addressSpaces>
   <spirit:memoryMaps>
     <spirit:memoryMap>
       <spirit:name>S_Axi</spirit:name>
+      <spirit:displayName>S_Axi</spirit:displayName>
       <spirit:addressBlock>
         <spirit:name>reg0</spirit:name>
-        <spirit:baseAddress spirit:format="bitString" spirit:resolve="user" spirit:bitStringLength="32">0</spirit:baseAddress>
-        <spirit:range spirit:format="long" spirit:resolve="user" spirit:minimum="4096" spirit:rangeType="long">65536</spirit:range>
-        <spirit:width spirit:format="long" spirit:resolve="user">32</spirit:width>
+        <spirit:displayName>reg0</spirit:displayName>
+        <spirit:baseAddress spirit:format="bitString" spirit:bitStringLength="1">0x0</spirit:baseAddress>
+        <spirit:range spirit:format="bitString" spirit:bitStringLength="17" spirit:minimum="4096" spirit:rangeType="long">0x10000</spirit:range>
+        <spirit:width spirit:format="long">32</spirit:width>
         <spirit:usage>register</spirit:usage>
       </spirit:addressBlock>
     </spirit:memoryMap>
@@ -1673,7 +1804,7 @@
         <spirit:name>xilinx_anylanguagesynthesis</spirit:name>
         <spirit:displayName>Synthesis</spirit:displayName>
         <spirit:envIdentifier>:vivado.xilinx.com:synthesis</spirit:envIdentifier>
-        <spirit:language>VHDL</spirit:language>
+        <spirit:language>VHDL-2008</spirit:language>
         <spirit:modelName>psi_ms_daq_vivado</spirit:modelName>
         <spirit:fileSetRef>
           <spirit:localName>xilinx_anylanguagesynthesis_view_fileset</spirit:localName>
@@ -1681,7 +1812,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>6f31bccb</spirit:value>
+            <spirit:value>c6e65ea3</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1689,7 +1820,7 @@
         <spirit:name>xilinx_anylanguagebehavioralsimulation</spirit:name>
         <spirit:displayName>Simulation</spirit:displayName>
         <spirit:envIdentifier>:vivado.xilinx.com:simulation</spirit:envIdentifier>
-        <spirit:language>VHDL</spirit:language>
+        <spirit:language>VHDL-2008</spirit:language>
         <spirit:modelName>psi_ms_daq_vivado</spirit:modelName>
         <spirit:fileSetRef>
           <spirit:localName>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:localName>
@@ -1697,7 +1828,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>6f31bccb</spirit:value>
+            <spirit:value>c6e65ea3</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1711,7 +1842,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>29b9ef51</spirit:value>
+            <spirit:value>dc802ac1</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1739,7 +1870,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>3e4c4178</spirit:value>
+            <spirit:value>ec6b5b32</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1753,7 +1884,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>65eb0fc6</spirit:value>
+            <spirit:value>a33cf5f5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2942,7 +3073,17 @@
               <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
             </spirit:wireTypeDef>
           </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
         </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Trig" xilinx:dependency="!$UseLastAsTrigger_g">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
       </spirit:port>
       <spirit:port>
         <spirit:name>StrX_Ts</spirit:name>
@@ -3095,6 +3236,29 @@
         </spirit:vendorExtensions>
       </spirit:port>
       <spirit:port>
+        <spirit:name>Str00_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str00_TLast" xilinx:dependency="$Streams_g > 0">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
         <spirit:name>Str01_Clk</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
@@ -3213,6 +3377,29 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str01_TReady" xilinx:dependency="$Streams_g > 1">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>Str01_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str01_TLast" xilinx:dependency="$Streams_g > 1">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -3341,6 +3528,29 @@
         </spirit:vendorExtensions>
       </spirit:port>
       <spirit:port>
+        <spirit:name>Str02_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str02_TLast" xilinx:dependency="$Streams_g > 2">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
         <spirit:name>Str03_Clk</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
@@ -3459,6 +3669,29 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str03_TReady" xilinx:dependency="$Streams_g > 3">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>Str03_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str03_TLast" xilinx:dependency="$Streams_g > 3">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -3587,6 +3820,29 @@
         </spirit:vendorExtensions>
       </spirit:port>
       <spirit:port>
+        <spirit:name>Str04_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str04_TLast" xilinx:dependency="$Streams_g > 4">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
         <spirit:name>Str05_Clk</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
@@ -3705,6 +3961,29 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str05_TReady" xilinx:dependency="$Streams_g > 5">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>Str05_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str05_TLast" xilinx:dependency="$Streams_g > 5">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -3833,6 +4112,29 @@
         </spirit:vendorExtensions>
       </spirit:port>
       <spirit:port>
+        <spirit:name>Str06_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str06_TLast" xilinx:dependency="$Streams_g > 6">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
         <spirit:name>Str07_Clk</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
@@ -3951,6 +4253,29 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str07_TReady" xilinx:dependency="$Streams_g > 7">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>Str07_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str07_TLast" xilinx:dependency="$Streams_g > 7">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -4079,6 +4404,29 @@
         </spirit:vendorExtensions>
       </spirit:port>
       <spirit:port>
+        <spirit:name>Str08_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str08_TLast" xilinx:dependency="$Streams_g > 8">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
         <spirit:name>Str09_Clk</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
@@ -4197,6 +4545,29 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str09_TReady" xilinx:dependency="$Streams_g > 9">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>Str09_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str09_TLast" xilinx:dependency="$Streams_g > 9">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -4325,6 +4696,29 @@
         </spirit:vendorExtensions>
       </spirit:port>
       <spirit:port>
+        <spirit:name>Str10_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str10_TLast" xilinx:dependency="$Streams_g > 10">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
         <spirit:name>Str11_Clk</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
@@ -4443,6 +4837,29 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str11_TReady" xilinx:dependency="$Streams_g > 11">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>Str11_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str11_TLast" xilinx:dependency="$Streams_g > 11">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -4571,6 +4988,29 @@
         </spirit:vendorExtensions>
       </spirit:port>
       <spirit:port>
+        <spirit:name>Str12_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str12_TLast" xilinx:dependency="$Streams_g > 12">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
         <spirit:name>Str13_Clk</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
@@ -4689,6 +5129,29 @@
           <xilinx:portInfo>
             <xilinx:enablement>
               <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str13_TReady" xilinx:dependency="$Streams_g > 13">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>Str13_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str13_TLast" xilinx:dependency="$Streams_g > 13">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -4817,6 +5280,29 @@
         </spirit:vendorExtensions>
       </spirit:port>
       <spirit:port>
+        <spirit:name>Str14_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str14_TLast" xilinx:dependency="$Streams_g > 14">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
         <spirit:name>Str15_Clk</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
@@ -4939,6 +5425,29 @@
           </xilinx:portInfo>
         </spirit:vendorExtensions>
       </spirit:port>
+      <spirit:port>
+        <spirit:name>Str15_TLast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.Str15_TLast" xilinx:dependency="$Streams_g > 15">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
     </spirit:ports>
     <spirit:modelParameters>
       <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="integer">
@@ -4950,6 +5459,16 @@
         <spirit:name>TsPerStream_g</spirit:name>
         <spirit:displayName>Tsperstream G</spirit:displayName>
         <spirit:value spirit:format="bool" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.TsPerStream_g">false</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="boolean">
+        <spirit:name>UseLastAsTrigger_g</spirit:name>
+        <spirit:displayName>Uselastastrigger G</spirit:displayName>
+        <spirit:value spirit:format="bool" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.UseLastAsTrigger_g">false</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>IntDataWidth_g</spirit:name>
+        <spirit:displayName>Intdatawidth G</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.IntDataWidth_g" spirit:minimum="0">64</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>MaxWindows_g</spirit:name>
@@ -5587,134 +6106,140 @@
       <spirit:enumeration>EDGE_RISING</spirit:enumeration>
       <spirit:enumeration>EDGE_FALLING</spirit:enumeration>
     </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_f0fa11aa</spirit:name>
+      <spirit:enumeration>64</spirit:enumeration>
+      <spirit:enumeration>128</spirit:enumeration>
+      <spirit:enumeration>256</spirit:enumeration>
+    </spirit:choice>
   </spirit:choices>
   <spirit:fileSets>
     <spirit:fileSet>
       <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_array_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_math_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_logic_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_arb_priority.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_sdp_ram.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_pulse_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_async_fifo.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_sync_fifo.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_master_simple.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_wconv_n2xn.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_master_full.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_pl_stage.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_slave_ipif.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_bit_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_simple_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_status_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_tdp_ram.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_reg_axi.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_input.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_daq_sm.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_daq_dma.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_axi_if.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_axi.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/psi_ms_daq_vivado.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_483971cf</spirit:userFileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_f2653562</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
     </spirit:fileSet>
@@ -5722,127 +6247,127 @@
       <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_array_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_math_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_logic_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_arb_priority.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_sdp_ram.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_pulse_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_async_fifo.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_sync_fifo.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_master_simple.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_wconv_n2xn.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_master_full.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_pl_stage.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_axi_slave_ipif.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_bit_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_simple_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_status_cc.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_common/hdl/psi_common_tdp_ram.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_pkg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_reg_axi.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_input.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_daq_sm.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_daq_dma.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_axi_if.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>../../VHDL/psi_multi_stream_daq/hdl/psi_ms_daq_axi.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/psi_ms_daq_vivado.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>vhdlSource-2008</spirit:userFileType>
         <spirit:logicalName>psi_ms_daq_axi_1_2</spirit:logicalName>
       </spirit:file>
     </spirit:fileSet>
@@ -5851,7 +6376,7 @@
       <spirit:file>
         <spirit:name>xgui/psi_ms_daq_axi_v1_2.tcl</spirit:name>
         <spirit:fileType>tclSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_29b9ef51</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_dc802ac1</spirit:userFileType>
         <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
@@ -5906,18 +6431,28 @@
       <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.TsPerStream_g">false</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
+      <spirit:name>UseLastAsTrigger_g</spirit:name>
+      <spirit:displayName>Use AXI-S Last signal as trigger</spirit:displayName>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.UseLastAsTrigger_g">false</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>IntDataWidth_g</spirit:name>
+      <spirit:displayName>Internal Data Width [max(Stream Data Width) &lt;= Internal Data Width &lt;= AXI Master Data Width]</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.IntDataWidth_g" spirit:choiceRef="choice_list_f0fa11aa">64</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
       <spirit:name>MaxWindows_g</spirit:name>
       <spirit:displayName>Maximum number of Windows per Stream</spirit:displayName>
       <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MaxWindows_g" spirit:minimum="1" spirit:maximum="32" spirit:rangeType="long">16</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>MinBurstSize_g</spirit:name>
-      <spirit:displayName>Minimum burst size to memory [64-bit words]</spirit:displayName>
+      <spirit:displayName>Minimum burst size to memory [words with internal data width]</spirit:displayName>
       <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MinBurstSize_g" spirit:minimum="1" spirit:maximum="512" spirit:rangeType="long">16</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>MaxBurstSize_g</spirit:name>
-      <spirit:displayName>Maximum burst size to memory [64-bit words]</spirit:displayName>
+      <spirit:displayName>Maximum burst size to memory [words with internal data width]</spirit:displayName>
       <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MaxBurstSize_g" spirit:minimum="1" spirit:maximum="512" spirit:rangeType="long">256</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
@@ -6513,61 +7048,46 @@
   <spirit:vendorExtensions>
     <xilinx:coreExtensions>
       <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Production">spartan7</xilinx:family>
         <xilinx:family xilinx:lifeCycle="Production">artix7</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">virtex7</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">qvirtex7</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">kintex7</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">kintex7l</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">qkintex7</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">qkintex7l</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">artix7l</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">aartix7</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">qartix7</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">zynq</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">qzynq</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">azynq</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">spartan7</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">aspartan7</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">virtexu</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">virtexuplus</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">kintexuplus</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">zynquplus</xilinx:family>
-        <xilinx:family xilinx:lifeCycle="Beta">kintexu</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">artix7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintex7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintexu</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintexuplus</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtexu</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtexuplus</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">zynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">zynquplus</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">aspartan7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">aartix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">azynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qartix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qkintex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qkintex7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qvirtex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qzynq</xilinx:family>
       </xilinx:supportedFamilies>
       <xilinx:taxonomies>
-        <xilinx:taxonomy>/UserIP</xilinx:taxonomy>
+        <xilinx:taxonomy>&quot;/UserIP&quot;</xilinx:taxonomy>
       </xilinx:taxonomies>
-      <xilinx:displayName>psi_ms_daq_axi_1_2</xilinx:displayName>
+      <xilinx:displayName>psi_ms_daq_axi</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
-      <xilinx:vendorDisplayName>Paul Scherrer Institut</xilinx:vendorDisplayName>
+      <xilinx:vendorDisplayName>Paul Scherrer Institute</xilinx:vendorDisplayName>
       <xilinx:vendorURL>http://www.psi.ch</xilinx:vendorURL>
-      <xilinx:coreRevision>1574155214</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2019-11-19T09:22:11Z</xilinx:coreCreationDateTime>
-      <xilinx:tags>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1528d14d_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c1e6bc_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4937d41a_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@ce7d40b_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1054cf76_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@11d0a83a_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@70e3d515_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4fb73e24_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bfbb784_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@60cf6c86_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@9042a7b_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@53e1f9fa_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5055e0f_ARCHIVE_LOCATION">d:/gfa/Libraries/Firmware/VivadoIp/vivadoIP_psi_ms_daq</xilinx:tag>
-      </xilinx:tags>
+      <xilinx:coreRevision>1723112022</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-08-08T10:14:22Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
-      <xilinx:xilinxVersion>2019.1</xilinx:xilinxVersion>
-      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="5e5b54af"/>
-      <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="0df2c719"/>
-      <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="5735148b"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="e1f49cc2"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="b50abbef"/>
-      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="c7f33bd7"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="fef61cce"/>
+      <xilinx:xilinxVersion>2022.2.1</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="f81e3bbd"/>
+      <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="1ab2f835"/>
+      <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="8ef5140c"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="f4fa37e4"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="157a276a"/>
+      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="10f06186"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="c309f99a"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>
